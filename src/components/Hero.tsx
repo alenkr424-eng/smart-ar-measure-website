@@ -49,19 +49,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4"
           >
-            <a 
-              href="#download"
-              onClick={(e) => {
-                e.preventDefault();
-                const target = document.getElementById('bottom-download-button') || document.getElementById('download');
-                target?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-              }}
-              className="inline-flex justify-center items-center gap-2 px-8 py-4 rounded-xl bg-accent text-[#061018] font-bold text-lg hover:bg-accentBright transition-all hover:-translate-y-1 shadow-[0_4px_14px_rgba(56,189,248,0.2)] hover:shadow-[0_8px_24px_rgba(56,189,248,0.4)] cursor-pointer"
-            >
-              Download APK
-            </a>
             <a 
               href="#features"
               className="inline-flex justify-center items-center gap-2 px-8 py-4 rounded-xl bg-surface text-primaryText font-semibold text-lg border border-borderDefault hover:bg-elevated transition-all"

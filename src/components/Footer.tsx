@@ -25,7 +25,6 @@ export default function Footer() {
                 <a href="#features" className="text-secondaryText hover:text-accent font-medium transition-colors text-sm">Features</a>
                 <a href="#how-it-works" className="text-secondaryText hover:text-accent font-medium transition-colors text-sm">How It Works</a>
                 <a href="#screenshots" className="text-secondaryText hover:text-accent font-medium transition-colors text-sm">Screenshots</a>
-                <a href="#download" className="text-secondaryText hover:text-accent font-medium transition-colors text-sm">Download</a>
               </nav>
             </div>
           </div>

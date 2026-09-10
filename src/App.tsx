@@ -7,7 +7,6 @@ import HowItWorks from './components/HowItWorks';
 import AppShowcase from './components/AppShowcase';
 import UseCases from './components/UseCases';
 import Experience from './components/Experience';
-import DownloadCTA from './components/DownloadCTA';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
         <AppShowcase />
         <UseCases />
         <Experience />
-        <DownloadCTA />
       </main>
       <Footer />
     </div>
