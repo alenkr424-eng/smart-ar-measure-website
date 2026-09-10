@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Dark background circle -->
+  <rect width="48" height="48" rx="12" fill="#070A0F"/>
+  <!-- Measurement line -->
+  <line x1="10" y1="24" x2="38" y2="24" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <!-- Left endpoint dot -->
+  <circle cx="10" cy="24" r="3" fill="#38BDF8"/>
+  <!-- Right endpoint dot -->
+  <circle cx="38" cy="24" r="3" fill="#38BDF8"/>
+  <!-- Left tick -->
+  <line x1="10" y1="18" x2="10" y2="30" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <!-- Right tick -->
+  <line x1="38" y1="18" x2="38" y2="30" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+  <!-- Center measurement label box -->
+  <rect x="17" y="12" width="14" height="8" rx="3" fill="#101722" stroke="#38BDF8" stroke-width="1.2"/>
+  <!-- Label text -->
+  <text x="24" y="19.2" font-family="monospace" font-size="5.5" font-weight="700" fill="#38BDF8" text-anchor="middle">AR</text>
+  <!-- Corner AR brackets (top-left) -->
+  <path d="M6 10 L6 6 L10 6" stroke="#67E8F9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7"/>
+  <!-- Corner AR brackets (top-right) -->
+  <path d="M42 10 L42 6 L38 6" stroke="#67E8F9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7"/>
+  <!-- Corner AR brackets (bottom-left) -->
+  <path d="M6 38 L6 42 L10 42" stroke="#67E8F9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7"/>
+  <!-- Corner AR brackets (bottom-right) -->
+  <path d="M42 38 L42 42 L38 42" stroke="#67E8F9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7"/>
+</svg>
