@@ -5,6 +5,7 @@ import About from './components/About';
 import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
 import AppShowcase from './components/AppShowcase';
+import DemoVideo from './components/DemoVideo';
 import UseCases from './components/UseCases';
 import Experience from './components/Experience';
 import Footer from './components/Footer';
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Features />
         <HowItWorks />
+        <DemoVideo />
         <AppShowcase />
         <UseCases />
         <Experience />

@@ -45,6 +45,14 @@ export default function Footer() {
             >
               GitHub
             </a>
+            <a
+              href="https://www.linkedin.com/in/alen-k-r-84558641b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-accent transition-colors"
+            >
+              LinkedIn
+            </a>
           </div>
         </div>
       </div>
